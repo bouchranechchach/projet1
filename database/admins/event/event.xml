@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+    <event id="1">
+        <title>Swimming Pool</title>
+        <description>We are going to swim together in the best and largest swimming pool in CA</description>
+        <price>0</price>
+        <date>2020-11-01 14:30:00</date>
+        <location>Major swimmers palace, CA</location>
+    </event>
+    <event id="5">
+        <title>Dinner</title>
+        <description>Let's have dinner together at laMogra 5 stars, it will be a great night.</description>
+        <price>120</price>
+        <date>2020-10-31T23:42</date>
+        <location>Hotel laMogra 5 stars, CA</location>
+    </event>
+</events>
