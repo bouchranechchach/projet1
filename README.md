@@ -1,9 +1,9 @@
-# confapp
+# ConfApp
 Conferences platform using PHP OOP and XML as database.
 
 This PHP based application uses XML to store data instead of a database, it has event manager and the possibility to send an email to a specific person or an entire list.
 If you forgot your password, you can reset using email password recovery which provides you with an recovery link with a token available for 24h.
-You can also print participants badges, participation certificates and payments invoice in PDF format.
+You can also print participants badges, participation certificates and payments invoice in PDF format using XSLT and SiteMap.
 
 ## Ho to user
 
