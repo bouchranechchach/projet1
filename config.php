@@ -37,3 +37,6 @@ define("COPYRIGHT", "Bouchra NECHCHACH");
 define("DATABASE", "database");
 define("DATABASE.ADMIN", DATABASE . "/admins");
 define("DATABASE.GUEST", DATABASE . "/guests");
+
+// Paramètres d'organisation
+define("ORGANISER", "John Doe");

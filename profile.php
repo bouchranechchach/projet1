@@ -12,7 +12,10 @@ $user = Helpers::getCurrentUser(
             <div class="col-md-8">
               <div class="card">
                 <div class="card-header card-header-primary">
-                  <h4 class="card-title">Mon Profil</h4>
+                  <h4 class="card-title">Mon Profil
+                      <a href="controllers/transformers/badge.php?id=<?= $user->attributes()->id ?>" target="_blank" class="btn btn-primary text-light float-right pull-right">Imprimer mon badge</a>
+                      <a href="controllers/transformers/attestation.php?id=<?= $user->attributes()->id ?>" target="_blank" class="btn btn-primary text-light float-right pull-right">Attestation de participation</a>
+                  </h4>
                   <p class="card-category">voici les informations de votre profil</p>
                 </div>
                 <div class="card-body">

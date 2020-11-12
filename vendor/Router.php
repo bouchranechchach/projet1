@@ -29,6 +29,14 @@ class Router {
         $this->path = $path;
     }
 
+    public function go(){
+        if($this->getPath() != null && $this->getPath() != ""){
+            header("location: ".$this->getPath());
+            die("La page à été redirigé.");
+            exit;
+        }
+    }
+
     /**
      * Redirection vers une page
      * @param $page
