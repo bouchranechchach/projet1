@@ -61,7 +61,7 @@ $without_article = count($manager->getData()->xpath("user[@has_article='0']"));
             </div>
           </div>
             <div class="row">
-                <img src="../assets/img/admin_conf.jpg" class="w-100 img-fluid img-raised img-thumbnail">
+                <img src="assets/img/admin_conf.jpg" class="w-100 img-fluid img-raised img-thumbnail">
             </div>
         </div>
       </div>

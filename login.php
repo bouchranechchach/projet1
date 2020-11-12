@@ -80,7 +80,7 @@ if(Request::isConnected()) Router::redirect('index');
                             </div>
                             <div class="card-body">
                                 <div class="d-flex justify-content-center">
-                                    <img src="assets/img/login.png" width="90">
+                                    <img src="admin/assets/img/login.png" width="90">
                                 </div>
 
                                 <?php if(isset($_GET['q'])): ?>
