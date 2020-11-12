@@ -36,6 +36,15 @@ $is_check = (new DatabaseManager(2, 'database/admins', 'event_user'))
                                 <div class="d-block">
                                     <form action="controllers/guests/event_join.php" method="post">
                                         <div class="form-group">
+                                            <label for="payment_method">Mode de paiement</label>
+                                            <select name="payment_method" class="form-control" id="payment_method">
+                                                <option value="Espèces">Espèces</option>
+                                                <option value="Chèques">Chèques</option>
+                                                <option value="Carte bancaire">Carte bancaire</option>
+                                                <option value="Autre">Autre</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
                                             <label for="action">Voulez-vous joindre cet événement ?</label>
                                             <input type="hidden" class="d-none" value="<?= Request::getData()['id'] ?>" name="id">
                                             <button type="submit" name="action_join_event" class="btn btn-primary pull-right float-right"><i class="material-icons text-light">payment</i> Joindre l'événement</button>
@@ -43,8 +52,9 @@ $is_check = (new DatabaseManager(2, 'database/admins', 'event_user'))
                                     </form>
                                 </div>
                             <?php else : ?>
-                                <div class="d-flex text-center justify-content-center">
-                                    <span class="btn btn-info">Vous avez joint cet événement</span>
+                                <div class="text-center justify-content-center">
+                                    <div class="text-success">Vous avez joint cet événement</div>
+                                    <a href="controllers/transformers/invoice.php?id=<?= $event->attributes()->id ?>" target="_blank" class="btn btn-primary">Imprimer le reçu</a>
                                 </div>
                             <?php endif; ?>
                         </div>

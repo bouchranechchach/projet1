@@ -30,6 +30,10 @@ $user = $manager->findById($id);
                             <div class="flex text-center mt-3 mb-5">
                                 <img src="../<?= $user->avatar ?>" class="img-thumbnail img-raised" width="180">
                             </div>
+                            <div class="mt-2 mb-2">
+                                <a href="../controllers/transformers/badge.php?id=<?= $user->attributes()->id ?>" target="_blank" class="btn btn-primary">Imprimer le badge</a>
+                                <a href="../controllers/transformers/attestation.php?id=<?= $user->attributes()->id ?>" target="_blank" class="btn btn-primary float-right pull-right">Attestation d'inscription</a>
+                            </div>
                             <table class="table-striped table-full-width table table-hover">
                                 <tbody>
                                     <tr>
@@ -63,10 +67,6 @@ $user = $manager->findById($id);
                                     <tr>
                                         <th>Université</th>
                                         <td><?= $user->university ?></td>
-                                    </tr>
-                                    <tr>
-                                        <th>Organisme</th>
-                                        <td><?= $user->organizm ?></td>
                                     </tr>
                                 </tbody>
                             </table>

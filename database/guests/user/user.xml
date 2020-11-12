@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <users>
-    <user id="1" has_article="1" gender="male" state="0">
+    <user id="1" has_article="1" gender="male" state="1">
         <username>Zakaria HBA</username>
         <email>zakaria.hba.97@gmail.com</email>
         <password>hba7222000</password>
@@ -26,4 +26,4 @@
         <date_depart>2020-10-30T01:05</date_depart>
         <date_arrive>2020-10-30T02:05</date_arrive>
     </user>
-</users>
+<user id="7" has_article="1" gender="male" state="2"><username>Zakaria HBA</username><email>admin2@gmail.com</email><password>hba7222000</password><avatar>assets/img/avatars/WIN_20200104_14_13_26_Pro.jpg</avatar><phone>+212636184629</phone><hotel>LA Hotelia</hotel><airport>Air Hooper</airport><university>ENSET</university><country>Morocco</country><date_depart>2020-11-03T23:13</date_depart><date_arrive>2020-11-10T23:13</date_arrive></user></users>

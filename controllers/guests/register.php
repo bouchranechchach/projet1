@@ -18,6 +18,10 @@ if(isset($_POST['action_register'])){
     $date_depart = $data['date_depart'];
     $date_arrive = $data['date_arrive'];
     $avatar = $_FILES['avatar']['name'];
+    $filename = "assets/img/avatars/".$avatar;
+
+    if(! move_uploaded_file($_FILES['avatar']['tmp_name'], $main_folder . $filename))
+        Router::redirect('register', 'q=ko');
 
     // Créer l'element XML
     $manager = new DatabaseManager(1, 'database/guests', 'user');
@@ -29,7 +33,7 @@ if(isset($_POST['action_register'])){
     $user->addChild('username', $username);
     $user->addChild('email', $email);
     $user->addChild('password', $password);
-    $user->addChild('avatar', $avatar);
+    $user->addChild('avatar', $filename);
     $user->addChild('phone', $phone);
     $user->addChild('hotel', $hotel);
     $user->addChild('airport', $airport);
