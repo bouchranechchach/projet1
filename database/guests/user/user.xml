@@ -13,17 +13,4 @@
         <date_depart>2020-10-31T20:00</date_depart>
         <date_arrive>2020-10-31T23:20</date_arrive>
     </user>
-    <user id="6" has_article="0" gender="female" state="0">
-        <username>Bouchra Nechchach</username>
-        <email>zakaeaz@gmail.com</email>
-        <password>hba7222000</password>
-        <avatar>hafid.py</avatar>
-        <phone>+212636184629</phone>
-        <hotel>LA Hotelia</hotel>
-        <airport>Air Hooper</airport>
-        <university>ENSET</university>
-        <country>Morocco</country>
-        <date_depart>2020-10-30T01:05</date_depart>
-        <date_arrive>2020-10-30T02:05</date_arrive>
-    </user>
-<user id="7" has_article="1" gender="male" state="2"><username>Zakaria HBA</username><email>admin2@gmail.com</email><password>hba7222000</password><avatar>assets/img/avatars/WIN_20200104_14_13_26_Pro.jpg</avatar><phone>+212636184629</phone><hotel>LA Hotelia</hotel><airport>Air Hooper</airport><university>ENSET</university><country>Morocco</country><date_depart>2020-11-03T23:13</date_depart><date_arrive>2020-11-10T23:13</date_arrive></user></users>
+</users>
