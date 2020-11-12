@@ -2,7 +2,7 @@
 <admins>
     <admin id="1">
         <username>Zakaria HBA</username>
-        <email>zakaria.hba.97@gmail.com</email>
-        <password>hba7222000</password>
+        <email>admin@confapp.com</email>
+        <password>abc123</password>
     </admin>
 </admins>
