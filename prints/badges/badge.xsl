@@ -50,7 +50,7 @@
                 </div>
 
                 <script>
-                    setTimeout(() => {4
+                    setTimeout(() => {
                         window.print();
                         window.close();
                     }, 200);

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <conferences>
     <conference id="1">
-        <title>COP 22</title>
-        <desciption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, voluptatem.</desciption>
+        <title>XML Conference</title>
+        <desciption>The conference focuses on the technology XML and all of its aspects.</desciption>
         <date>2021-02-13 15:00:00</date>
-        <location>42 Silecon VAlley, CA USA</location>
+        <location>Bab Erouah-faculté des sciences , Rabat Maroc</location>
     </conference>
 </conferences>

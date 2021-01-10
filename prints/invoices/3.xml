@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="invoice.xsl" ?>
+<invoices>
+    <invoice>
+        <number>3</number>
+        <conference_name>XML Conference</conference_name>
+        <conference_location>Bab Erouah-faculté des sciences , Rabat Maroc</conference_location>
+        <conference_date>13/02/2021 à 15:00</conference_date>
+        <payment_method>Chèques</payment_method>
+        <event_title>Swimming Pool</event_title>
+        <amount>0</amount>
+        <username>Hajar Metghari</username>
+        <date>le 27/12/2020 à 17:56</date>
+    </invoice>
+</invoices>

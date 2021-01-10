@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="badge.xsl" ?>
+<badges>
+    <badge>
+        <conference>XML Conference</conference>
+        <username>Hajar Metghari</username>
+        <email>metgharihajar@gmail.com</email>
+        <phone>06215487978</phone>
+        <university>Université Mohammed  V</university>
+        <avatar>assets/img/avatars/13.jpg</avatar>
+    </badge>
+</badges>

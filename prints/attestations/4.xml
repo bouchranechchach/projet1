@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="attestation.xsl" ?>
+<attestations>
+    <attestation>
+        <conference_name>XML Conference</conference_name>
+        <conference_location>Bab Erouah-faculté des sciences , Rabat Maroc</conference_location>
+        <conference_date>2021-02-13 15:00:00</conference_date>
+        <organiser>Mamoun Souidi</organiser>
+        <gender>Madame </gender>
+        <username>Hajar Metghari</username>
+        <now>27/12/2020</now>
+    </attestation>
+</attestations>

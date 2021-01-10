@@ -22,7 +22,6 @@ function requireByFolder($folder){
 }
 
 requireByFolder('vendor');
-requireByFolder('models');
 
 // middleware pour sécurité
 if(in_array(Request::requestPage(), ['config', 'header', 'footer']))
@@ -32,11 +31,11 @@ if(in_array(Request::requestPage(), ['config', 'header', 'footer']))
 define("APP_NAME", "ConfApp");
 define("APP_ID", "context_id");
 define("APP_ADMIN_ID", 'context_admin_id');
-define("APP_URL", "http://localhost/conference");
+define("APP_URL", "http://localhost:8090/confapp");
 define("COPYRIGHT", "Bouchra NECHCHACH");
 define("DATABASE", "database");
 define("DATABASE.ADMIN", DATABASE . "/admins");
 define("DATABASE.GUEST", DATABASE . "/guests");
 
 // Paramètres d'organisation
-define("ORGANISER", "John Doe");
+define("ORGANISER", "Mamoun Souidi");

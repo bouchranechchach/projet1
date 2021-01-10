@@ -1,24 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recovers>
-    <recover>
-        <email>zakaria.hba.97@gmail.com</email>
-        <token>
-            y7CJDZWmyKKL6bWmTf665rSMRc4MV30Uskv8ChF3xY6Uj85x6Nu2p257qHtA7v72hy4q4YlU60bVV08PoY1S1lsW3fW8r1cSqYjoUakGe42c3uO4ty38W8QIsN5eV99
-        </token>
-        <expires>2001-01-01 00:00:00</expires>
-    </recover>
-    <recover>
-        <email>zakaria.hba.97@gmail.com</email>
-        <token>
-            1XE01Wxwq07UcwF9Dxi2jhSZRM1NJD6vLXCoOF58pc4Z47AUpm16q74Jbm6OG4vzFTsv7ywoe1PYak3eg09GfCJaAxLDm2x7985x98P4M5LXZ95GVi586wwz902gzMir
-        </token>
-        <expires>2020-10-31 13:32:19</expires>
-    </recover>
-    <recover>
-        <email>zakaeaz@gmail.com</email>
-        <token>
-            5zyq1hb07AUJ5fWi7kj02GzwaJLG7rR8AB4OUa23QV6PYumVFJ1S70kU8HJhqJ47eYqiam54rLm75a332HxFHgcy53q0H3N2EaY2k139qQyeNmmpqsb4596yGU9NHBE1
-        </token>
-        <expires>2001-01-01 00:00:00</expires>
-    </recover>
 </recovers>

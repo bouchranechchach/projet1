@@ -2,7 +2,7 @@
 <autoincrements>
     <conference>1</conference>
     <user>2</user>
-    <notification>1</notification>
-    <event>6</event>
-    <event_user>10</event_user>
+    <notification/>
+    <event>2</event>
+    <event_user/>
 </autoincrements>

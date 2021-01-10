@@ -140,7 +140,8 @@ if(Request::isConnected()) Router::redirect('index');
                                         <input type="datetime-local" id="date_arrive" class="form-control" name="date_arrive" required/>
                                     </div>
                                     <div class="form-group">
-                                        <input type="checkbox" id="has_article" class="" name="has_article" required/>
+										<input type="hidden" name="has_article" value="0" />
+                                        <input type="checkbox" id="has_article" class="" name="has_article" value="1"/>
                                         <label for="has_article">Avez-vous un article à publier ?</label>
                                     </div>
                                     <div class="form-group">

@@ -30,6 +30,7 @@ if(isset($_POST['action_recover'])){
             require_once $main_folder . 'vendor/PHPMailer/PHPMailerAutoload.php';
             if (Helpers::sendMail(new PHPMailer, [$email, $user->username], $subject, [$message, 0]))
                 Router::redirect('recover_password', 'q=ok');
+            else Router::redirect('recover_password', 'q=down');
         }
         Router::redirect('recover_password', 'q=fail');
     } Router::redirect('recover_password', 'q=ko');

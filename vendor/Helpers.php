@@ -75,8 +75,8 @@ Je vous prie de bien vouloir agréer Monsieur, Madame l’assurance de mes sinc�
         $mail->Port = 465;
 
         $mail->SMTPAuth = true;
-        $mail->Username = "config.devcrawlers@gmail.com";
-        $mail->Password = "devconf@7222000";
+        $mail->Username = "confapp.2020@gmail.com";
+        $mail->Password = "conf_2020";
 
         $mail->SMTPOptions = array(
             'ssl' => array(
@@ -86,18 +86,13 @@ Je vous prie de bien vouloir agréer Monsieur, Madame l’assurance de mes sinc�
             )
         );
 
-        $mail->setFrom('config.devcrawlers@gmail.com', 'ConfApp Admin');
+        $mail->setFrom('confapp.2020@gmail.com', 'ConfApp Admin');
         $mail->addAddress($to[0], $to[1]);
         $mail->Subject = $subject;
-        if($msg[2]==0){
-            $mail->isHTML(true);
-            $mail->Body = $msg[0];
-        }else{
-            $mail->Body = $msg[0];
-        }
-        $mail->AltBody = $msg;
+        $mail->isHTML(true);
+        $mail->Body = $msg[0];
 
-        if($attach!="") $mail->addAttachment($attach[0], $attach[1]);
+        $mail->AltBody = $msg;
 
         if (!$mail->send()) {
             return false;

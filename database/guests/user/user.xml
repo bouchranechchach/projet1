@@ -1,16 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <users>
-    <user id="1" has_article="1" gender="male" state="1">
-        <username>Zakaria HBA</username>
-        <email>zakaria.hba.97@gmail.com</email>
-        <password>hba7222000</password>
-        <avatar>assets/img/avatars/1.png</avatar>
-        <phone>+212636184629</phone>
-        <hotel>LA Hotelia</hotel>
-        <airport>Air Hooper Principal</airport>
-        <university>Ecole Normale Supérieur de l'Enseignement Technique à Mohammedia, Maroc</university>
-        <country>Morocco</country>
-        <date_depart>2020-10-31T20:00</date_depart>
-        <date_arrive>2020-10-31T23:20</date_arrive>
-    </user>
-</users>
+<user id="1" has_article="1" gender="female" state="1"><username>Bouchra NECHCHACH</username><email>bushra.nechchach@gmail.com</email><password>bushra123</password><avatar>assets/img/avatars/1.jpg</avatar><phone>+212618546959</phone><hotel>Golden tulip</hotel><airport>Mohammed V rabat</airport><university>Univeristé Mohammed V Rabat, Maroc</university><country>Morocco</country><date_depart>2020-12-31T20:00</date_depart><date_arrive>2020-12-31T22:00</date_arrive></user><user id="2" has_article="0" gender="female" state="0"><username>hajar metghari</username><email>metgharihajar@gmail.com</email><password>hajar123</password><avatar>assets/img/avatars/2.jpg</avatar><phone>+212618546959</phone><hotel>Golden tulip</hotel><airport>Mohammed V rabat</airport><university>Univeristé Mohammed V Rabat, Morroco</university><country>Austria</country><date_depart>2020-12-31T20:00</date_depart><date_arrive>2020-12-31T22:00</date_arrive></user></users>

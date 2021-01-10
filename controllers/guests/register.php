@@ -12,7 +12,7 @@ if(isset($_POST['action_register'])){
     $university = $data['university'];
     $country = $data['country'];
     $hotel = $data['hotel'];
-    $has_article = isset($data['has_article']);
+    $has_article =$data['has_article'];
     $gender = $data['gender'];
     $airport = $data['airport'];
     $date_depart = $data['date_depart'];

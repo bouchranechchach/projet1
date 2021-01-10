@@ -85,6 +85,10 @@ if(Request::isConnected()) Router::redirect('index');
                                         <div class="mt-2">
                                             Vérifier votre email, vous allez trouvez le lien pour réinitialisez votre mot de passe
                                         </div>
+                                    <?php elseif(Request::getData()['q'] == "down"): ?>
+                                        <div class="alert alert-danger mt-2">
+                                            Erreur d'envoie de mail, essayer plus tard
+                                        </div>
                                     <?php else : ?>
                                         <div class="alert alert-danger mt-2">
                                             Ce compte n'existe pas
